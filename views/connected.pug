@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1= data.title
+  p You are now connected to google through Nylas
+  p #{data.token}
+  a(href="/connected/createlabel") Create Label
+  p 
+  a(href="/connected/sendemail") Send Email 
+  p 
+  a(href="/connected/findemail") findemail
+
